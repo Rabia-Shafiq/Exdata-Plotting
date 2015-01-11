@@ -14,8 +14,3 @@ df$Sub_metering_3 <- as.numeric(as.character(df$Sub_metering_3))
         dev.copy(png, file="plot2.png", width=480, height=480)
         dev.off()
         cat("plot2.png has been saved in", getwd())
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 8b4cc63ff91ee69e81a41201995423850ea9ed0c
